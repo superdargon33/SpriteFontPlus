@@ -24,7 +24,8 @@ namespace SpriteFontPlus
 		public static readonly CharacterRange Katakana =
 			new CharacterRange((char)0x30A0, (char)0x30FF);
 
-		public static readonly CharacterRange CJKUnifiedIdeographs = new CharacterRange((char)0x4E00, (char)0x9FFF);
+		public static readonly CharacterRange CJKUnifiedIdeographs = 
+			new CharacterRange((char)0x4E00, (char)0x9FFF);
 
 		public char Start { get; private set; }
 		public char End { get; private set; }
